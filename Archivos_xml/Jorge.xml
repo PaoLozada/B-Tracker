@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Jorge>
+    <Familia>
+        <EsposaEHijos>
+            <Esposa>
+                <nombre>Constanza Paez<nombre>
+            </Esposa>
+            <Hija>
+                <nombre>Karen Torres<nombre>
+            </Hija>
+            <Hija>
+                <nombre>Paula Torres<nombre>
+            </Hija>
+            <Hijo>
+                <nombre>Alejandro Torres<nombre>
+            </Hijo>
+            <Hijo>
+                <nombre>Angel David Torres<nombre>
+            </Hijo>
+        </EsposaEHijos>
+        <Abuelos>
+            <Abuelo>
+                <nombre>Felipe Torres<nombre>
+            </Abuelo>
+            <Abuela>
+                <nombre>Visitación Penagos<nombre>
+            </Abuela>
+            <Abuelo>
+                <nombre>Felipe Forero<nombre>
+            </Abuelo>
+            <Abuela>
+                <nombre>Transito Ruiz<nombre>
+            </Abuela>
+        </Abuelos>        
+        <Padres>
+            <Padre>
+                <nombre>Miguel Torres<nombre>
+            </Padre>
+            <Madre>
+                <nombre>Teresa Forero<nombre>
+            </Madre>
+        </Padres>
+        <Hermanos>
+            <Hermana>
+                <nombre>Liliana Torres Forero<nombre>
+            </Hermana>
+            <Hermano>
+                <nombre>Wilson Torres Forero<nombre>
+            </Hermano>
+            <Hermano>
+                <nombre>Juan Torres Forero<nombre>
+            </Hermano>
+        </Hermanos>
+  </Familia>
+</Jorge>

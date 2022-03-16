@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-TRACKER</title>
+    <link rel="shortcut icon" href="./img/bicicamp.png" type="image/x-ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/simple-lightbox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="home">
+
+        <nav class="nav">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#!" class="brand-logo brand"><img class="img" src="img/13.png" alt="B-tracker"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down menu">
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#products">Productos</a></li>
+                        <li><a onclick="desplegableF()" class="miMenu">Ingenieros<i class="material-icons right">arrow_drop_down</i></a>
+                            <ul id="dropdown1" class="dropdown1">
+                                <div class="alinear">
+                                    <li><a href="./ing/leidy.html">Leidy Basto</a></li>
+                                    <li><a href="./ing/holman.html">Holman Ibito</a></li>
+                                    <li><a href="./ing/jorge.html">Jorge Torres</a></li>
+                                    <li><a href="./ing/paola.html">Paola Lozada</a></li>
+                                </div>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+    <ul class="sidenav cerrar" id="mobile-demo">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#products">Productos</a></li>
+        <li><a onclick="desplegableFd()" class="miMenud">Ingenieros</a>
+            <ul id="dropdown1d" class="dropdown1d">
+                <div class="alineard">
+                    <li><a href="./ing/leidy.html">Leidy Basto</a></li>
+                    <li><a href="./ing/holman.html">Holman Ibito</a></li>
+                    <li><a href="./ing/jorge.html">Jorge Torres</a></li>
+                    <li><a href="./ing/paola.html">Paola Lozada</a></li>
+                </div>
+            </ul>
+        </li>
+    </ul>
+
+
+    <main class="info">
+        <div class="absolute-title">
+            <h3>B-TRACKER</h3>
+        </div>
+        <div class="container">
+            <img src="img/bicicamp.png" alt="bici blanco y negro png" data-aos="fade-right" data-aos-duration="2000">
+            <div data-aos="fade-left" data-aos-duration="2000">
+                <h1><span>APP</span> #uno</h1>
+                <p>Ahora los bici-usuarios tienen la posiblidad de monitorear y rastrear la ubicación de su bicicleta en tiempo real, además de hacer parte de nuestra comunidad para conocer las rutas más seguras de Bogotá.</p>
+                <button onclick="location.href= '#vision'" class="btn-info">Conocer más</button>
+            </div>
+
+        </div>
+    </main>
+    <article class="over-lay-section" id="nosotros">
+        <div class="over-lay">
+            <div class="container">
+                <h3>Vocación de Servicio</h3>
+                <h2>Nosotros</h2>
+                <p>Es necesario expresar la preocupación en la población bogotana, donde se expone al hurto creciente a bicicletas. A partir de esto, nuestra compañia encontró la posibilidad de desarrollar una aplicación móvil que brinda la posibilidad de
+                    monitorear en tiempo real la ubicación de las bicicletas.</p>
+            </div>
+        </div>
+    </article>
+    <article class="products" id="products">
+        <section class="product-tittle">
+            <h2 data-aos="fade-up" data-aos-duration="2000">Nuestra APP</h2>
+            <div class="divider"></div>
+        </section>
+        <section class="carousel">
+            <a class="carousel-item" href="#one!">
+                <img src="./img/usuario.png" alt="usuarios">
+                <h5>Usuarios</h5>
+            </a>
+            <a class="carousel-item" href="#two!">
+                <img src="./img/localizacion.png" alt="GPS-Localización">
+                <h5>Localización</h5>
+            </a>
+            <a class="carousel-item" href="#three!">
+                <img src="./img/pqr.png" alt="PQR">
+                <h5>PQR</h5>
+            </a>
+            <a class="carousel-item" href="#four!">
+                <img src="./img/alarma.png" alt="Alarma">
+                <h5>Alarma</h5>
+            </a>
+            <a class="carousel-item" href="#five!">
+                <img src="./img/historial.jpg" alt="Historial">
+                <h5>Historial</h5>
+            </a>
+        </section>
+    </article>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="skew"><path fill="rgb(214, 214, 218)" fill-opacity="1" d="M0,128L1440,288L1440,320L0,320Z" ></path></svg>
+
+    <div class="vision" id="vision">
+        <h2 data-aos="fade-up" data-aos-duration="2000">Acerca de</h2>
+        <div class="divider"></div>
+        <div class="visiones">
+            <div class="descripcion">
+                <a href="./img/taller1.png"><img src="./img/taller.png" alt="TallerIndustria" /></a>
+                <a href="./img/posteBicis1.png"><img src="./img/posteBicis.png" alt="bici montaña" /></a>
+                <a href="./img/naranja2.png"><img src="./img/naranja1.png" alt="Bici_usuaria" /></a>
+                <a href="./img/politica1.png"><img src="./img/politica.png" alt="Bici_Segura" /></a>
+                <a href="./img/vision1.png"><img src="./img/vision.jpg" alt="Visión" /></a>
+                <a href="./img/mision1.png"><img src="./img/mision.jpg" alt="Mision" /></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contac">
+        <div class="fondo">
+            <form class="container-form" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Contáctanos</h2>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Teléfono">
+                <Textarea placeholder="Mensaje">Mensaje</Textarea>
+                <button class="btn-info">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+
+            <div class="social-media">
+                <h5>Encuentranos</h5>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="info">
+                <h5>Información</h5>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#vision">Conocer más</a></li>
+                </ul>
+            </div>
+            <div class="blog">
+                <h5>Acerca de</h5>
+                <ul>
+                    <li><a href="https://www.ut.edu.co" target="_blank">Universidad del Tolima</a></li>
+                    <li><a href="http://idead.ut.edu.co" target="_blank">IDEAD</a></li>
+                    <li><a href="http://idead.ut.edu.co/pregrado/ingenieria-de-sistemas-por-ciclos-propedeuticos.html" target="_blank">Facultad de Ing. de Sistemas</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Q7G5JBn-wP4" target="_blank">Web Semántica</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        var lightbox = new SimpleLightbox('.descripcion a', { /* options */ });
+    </script>
+</body>
+
+</html>

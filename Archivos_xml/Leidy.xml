@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Leidy>
+    <Familia>
+        <Abuelos>
+            <Abuelo>
+                <nombre>Elver<nombre>
+            </Abuelo>
+            <Abuela>
+                <nombre>Lina<nombre>
+            </Abuela>            
+        </Abuelos>        
+            <Padres>
+            <Padre>
+                <nombre>Álvaro<nombre>
+            </Padre>
+            <Madre>
+                <nombre>Herlina<nombre>
+            </Madre>
+        </Padres>
+        <Hermanos>
+            <Hermano>
+                <nombre>Andrés<nombre>
+            </Hermano>
+        </Hermanos>
+        <Tios>
+            <Tia>
+                <nombre>María<nombre>
+            </Tia>
+            <Tio>
+                <nombre>Wilder<nombre>
+            </Tio>
+            <Tio>
+                <nombre>José<nombre>
+            </Tio>
+            <Tio>
+                <nombre>Elver<nombre>
+            </Tio>
+        </Tios>
+        <Primos>
+            <Primo>
+                <nombre>Esteban<nombre>
+            </Primo>
+            <Primo>
+                <nombre>José Elver<nombre>
+            </Primo>
+            <Primo>
+                <nombre>José René<nombre>
+            </Primo>
+        </Primos>
+  </Familia>
+</Leidy>

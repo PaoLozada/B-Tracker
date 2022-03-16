@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Paola>
+    <Familia>
+        <Padres>
+            <Padre>
+                <nombre>Fabio Lozada<nombre>
+            </Padre>
+            <Madre>
+                <nombre>Stella Gutiérrez<nombre>
+            </Madre>
+        </Padres>
+        <Hermanos>
+            <Hermano>
+                <nombre>Alexander Lozada<nombre>
+            </Hermano>
+            <Hermano>
+                <nombre>Jhon F. Lozada<nombre>
+            </Hermano>
+        </Hermanos>
+        <Abuelos>
+            <Abuelo>
+                <nombre>Álvaro Gutiérrez<nombre>
+            </Abuelo>
+            <Abuela>
+                <nombre>Clementina Rodriguez<nombre>
+            </Abuela>
+            <Abuelo>
+                <nombre>Ramón Lozada<nombre>
+            </Abuelo>
+            <Abuela>
+                <nombre>Graciela Bermeo<nombre>
+            </Abuela>
+        </Abuelos>
+        <Sobrinos>
+            <Sobrina>
+                <nombre>Valentina Lozada<nombre>
+            </Sobrina>
+        </Sobrinos>
+  </Familia>
+</Paola>
